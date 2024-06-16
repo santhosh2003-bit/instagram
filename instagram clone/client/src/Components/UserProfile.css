@@ -1,0 +1,38 @@
+.profile{
+    max-width: 600px;
+    margin: 10px auto;
+
+}
+.profile-frame{
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile-pic {
+    height: fit-content;
+}
+.profile-pic >img{
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+.profile-data{
+text-align: center;
+}
+.profile-info p{
+    padding: 0px 10px;
+}
+.gallary{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.gallary img{
+    width: 30%;
+    margin: 10px;
+}
+.followBtn{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.navbar,ul{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    justify-content: space-around;
+   box-shadow:1px 1px 5px #e0dcdc ;
+}
+ img{
+    width: 10%;
+    object-fit: contain;
+
+}
+ li{
+    list-style: none;
+    padding: 1px 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}

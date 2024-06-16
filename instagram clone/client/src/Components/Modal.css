@@ -1,0 +1,77 @@
+.darkBg{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+}
+.centered{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.modalHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.modalHeader h5{
+    font-size: 22px;
+    font-weight: 600;
+   margin: 0%;
+}
+.closeBtn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 25px;
+ background-color: transparent;
+ border: none;
+ outline: none;
+ font-weight: bolder;
+}
+.modalContent{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.actionsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+button:hover{
+    
+    box-shadow: 0 0 10px 10px gainsboro;
+}
+.actionsContainer .logOutBtn{
+    background-color: lightgreen;
+    color: white;
+}
+.actionsContainer .cancelBtn{
+    background-color: red;
+    color: white;
+}
